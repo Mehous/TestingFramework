@@ -465,7 +465,7 @@ exports.Start = function (Config) {
       } else {
         MAXT = data_set.MaxTDep;
       }
-      for (let s = 4; s < 17; s = s * 2) {
+      for (let s = 4; s < 65; s = s * 2) {
         if (Config.Scenario == 0) {
           let result = StartUserIndepTesting(dataset, s, recognizer);
           PrintResults(result, s, recognizer.name, dataset.name);
