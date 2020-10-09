@@ -1,0 +1,15 @@
+{
+  "name": "Testing-framework",
+  "version": "1.0.2",
+  "description": "",
+  "main": "src/Configuration.js",
+  "scripts": {
+    "start": "node src/Configuration.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehdi Ousmer",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "7.2.3"
+  }
+}
